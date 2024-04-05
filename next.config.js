@@ -6,6 +6,7 @@ const store = require("./store.config.json")
  */
 const nextConfig = withStoreConfig({
   features: store.features,
+  swcMinify: false,
   reactStrictMode: true,
   images: {
     remotePatterns: [
